@@ -120,33 +120,6 @@
 
 
 
-        @foreach($categories as $category)
-
-        <div class="col-md-4">
-            <div class=" card card-chart team-player">
-              <div class="oh-desktop">
-                <!-- Services Terri-->
-
-                <article class="services-terri wow slideInUp">
-                  
-
-                  <div class=" card card-chart services-terri-figure"> <img src="{{$category->featured_image_url}}"  alt="" style="background-image: url('{{ asset('/images/default.gif') }}'); max-width: 376px; max-height: 278px; object-fit: cover; width: 376px; height: 278px">
-                  </div>
-                  <div class="services-terri-caption"><a href="{{url('/categories/' .$category->id)}}"></a>
-                    <h5 class="services-terri-title" style="font-family: Satisfy"><a href="{{url('/categories/' .$category->id)}}" style="text-transform: uppercase">{{$category->name}}</a></h5>
-                  </div>
-                   
-                </article>
-               
-              </div>
-
-            </div>
-</br>
-          </div>
-
-            @endforeach
-          </section>
-
             <section class="primary-overlay section parallax-container" data-parallax-img="images/slide-1-1920x753.jpg">
         <div class="parallax-content section-xxl context-dark text-md-left">
           <div class="container">

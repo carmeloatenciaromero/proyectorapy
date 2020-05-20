@@ -19,7 +19,7 @@ class TestController extends Controller
 	} 
 	public function welcome(){
 		
-		$categories=category::has('products')->get();
+		/*$categories=category::has('products')->get();*/
 
     	$sliderrs=sliderr::all();
 
