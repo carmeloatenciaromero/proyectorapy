@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use App\User;
 use App\Mail\NewOrder;
 use Mail;
+use App\cartDetail;
 
 
 class cartController extends Controller
