@@ -94,7 +94,7 @@
                     @if (auth()->user())
                     <li> <a class="icon mdi mdi-cart-outline" href="/home">
 
-                     <span class="badge badge-warning navbar-badge">{{auth()->user()->cart->details->count()}}</span></a>          
+                     <span class="badge badge-warning navbar-badge"></span></a>          
                      </li>
                      @else
                      <li> <a class="icon mdi mdi-cart-outline" href="/home"> </a>
