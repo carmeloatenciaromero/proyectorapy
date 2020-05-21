@@ -7,6 +7,7 @@ use App\product;
 use App\Category;
 use App\sliderr;
 use App\cartDetail;
+use App\cart;
 class TestController extends Controller
 {
 

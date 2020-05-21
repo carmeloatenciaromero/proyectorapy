@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\cart;
 use App\cartDetail;
 
 class HomeController extends Controller
