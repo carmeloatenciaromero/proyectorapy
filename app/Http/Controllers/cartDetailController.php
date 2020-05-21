@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\CartDetail;
+use App\cartDetail;
 use App\product;
 
 class cartDetailController extends Controller

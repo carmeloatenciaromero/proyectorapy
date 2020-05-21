@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 use RealRashid\SweetAlert\Facades\Alert;
 use Illuminate\Http\Request;
 use App\product;
-use App\category;
+use App\Category;
 use App\sliderr;
+use App\cartDetail;
 class TestController extends Controller
 {
 
@@ -19,7 +20,7 @@ class TestController extends Controller
 	} 
 	public function welcome(){
 		
-		/*$categories=category::has('products')->get();*/
+		$categories=category::has('products')->get();
 
     	$sliderrs=sliderr::all();
 
