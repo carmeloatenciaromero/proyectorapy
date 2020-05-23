@@ -8,7 +8,7 @@ class cart extends Model
 {
   public function details()
   {
-  	return $this->hasMany(Cartdetail::class);
+  	return $this->hasMany(cartDetail::class);
   	  }
 
   	  public function user()
