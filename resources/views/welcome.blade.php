@@ -3,7 +3,6 @@
 @section('body-class','landing-page')
 
 @section('content')
-
 <style>
   
   .tt-query {
@@ -270,4 +269,18 @@
         });
     </script>
 
+
 @endsection
+
+
+
+
+
+
+
+
+
+                      
+
+
+

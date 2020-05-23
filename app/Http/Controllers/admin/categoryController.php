@@ -52,8 +52,6 @@ class categoryController extends Controller
     $category= category::find($id);
     $category->name=$request->input('name');
     $category->description=$request->input('description');
-    $category->long_description=$request->input('long_description');
-    $category->price=$request->input('price');
     $category->save();
     return redirect('/admin/categories');
 
