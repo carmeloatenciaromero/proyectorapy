@@ -9,7 +9,7 @@ use App\product;
 class cartDetailController extends Controller
 {
     public function store(Request $request){
-    $cartDetail=new CartDetail();
+    $cartDetail=new cartDetail();
     
     $cartDetail->cart_id=auth()->user()->cart->id;
 
@@ -20,7 +20,7 @@ class cartDetailController extends Controller
    return redirect('/home');
 }
 	public function destroy(Request $request){
-    	$cartDetail= CartDetail::find($request->cart_detail_id);
+    	$cartDetail= cartDetail::find($request->cart_detail_id);
         if($cartDetail->cart_id==auth()->user()->cart->id)
 
     	$cartDetail->delete();
