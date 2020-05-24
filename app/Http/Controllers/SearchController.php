@@ -16,7 +16,7 @@ class SearchController extends Controller
     		return redirect('products/'.$id); // 'products/'.$id
     	}
 
-    	return view('search.show')->with(compact('products', 'query'));
+    	return view('Search.show')->with(compact('products', 'query'));
     }
     public function data()
     {
